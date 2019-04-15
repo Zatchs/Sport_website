@@ -82,12 +82,12 @@ body{
 
 .presentation {
     width: 100%;
-    height: 70vh;
+    min-height: 90vh;
     margin-top: 100px;
 }
 
 .pImg {
-    width: 50%;
+    width: 45%;
     float: left;
     height: auto;
     background: white;
@@ -96,12 +96,53 @@ body{
 .pImg img {
     width: 100%;
     max-width: 500px;
-    margin-left: 80px;
+    margin-left: 20px;
 }
 
 .pTexte {
-    width: 50%;
+    width: 45%;
     float: right;
     height: auto;
     font-size: 1.2em;
+    margin-right: 20vh;
+}
+
+/*************/
+/** PARRALAX**/
+/*************/
+
+.parallax-window {
+    min-height: 50vh;
+    background: transparent;
+}
+
+/*************/
+/** A PROPOS**/
+/*************/
+
+.aPropos {
+    width: 100%;
+    min-height: 70vh;
+    margin-top: 100px;
+}
+
+.aPimg{
+    width: 45%;
+    float: right;
+    height: auto;
+    background: white;
+}
+
+.aPimg img {
+    width: 100%;
+    max-width: 500px;
+    margin-right: 20px;
+}
+
+.aPtexte {
+    width: 45%;
+    float: left;
+    height: auto;
+    font-size: 1.2em;
+    margin-left : 20px;
 }
