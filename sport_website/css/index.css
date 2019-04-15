@@ -13,511 +13,69 @@ body{
     text-align: center;
 }
 
-h2 {
-    color: #f74C3C;
-    padding-top: 50px;
+
+/**********/
+/* SLIDER */
+/**********/
+
+#slider {
+    overflow: hidden;
+    min-height: 100vh;
 }
 
-
-
-
-
-/***************/
-/**** NAVBAR****/
-/***************/
-
-.nav{
-    width: 100%;
-    background-color: black;
-    text-align: center;
-    display: flex;
-    height: 40px;
-    line-height: 40px;
+#slider figure {
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    animation: 20s slider infinite;
 }
 
-ul nav{
-    background-color: black;
-}
-
-.nav li{
-    display: inline-block;
-
-}
-
-
-.nav li a{
-    text-decoration: none;
-    color: rgb(220, 226, 243);
-    font-size: 1em;
-}
-
-.nav img{
-    width: 250px;
-    display: block;
-    height: 20px;
-    margin-top: 20px;
-    margin-left: 9em;
-
-}
-
-.one {
-    width: 60%;
-}
-.two {
-    text-transform: uppercase;
-    width: 40%;
-
-}
-.two li {
-    margin-right: 20px;
-    list-style: none;
-}
-
-@media (max-width:991px) {
-
-    .nav li a{
-        color: rgb(220, 226, 243);
-        font-size: 0.8em;
-    }
-
-    .nav img{
-        width: 100px;
-        height: 10px;
-
-    }
-    .nav{
-        width: 100%;
-        height: 60px;
-        line-height: 40px;
-    }
-    .two li {
-        margin-right: 0px;
-    }
-
-}
-
-@media (max-width:767px) {
-
-  .nav li a{
-      text-decoration: none;
-      color: rgb(220, 226, 243);
-      font-size: 0.5em;
-  }
-
-  .nav img{
-      width: 100px;
-      height: 10px;
-      margin-left: 4em;
-
-  }
-  .nav{
-      width: 100%;
-      background-color: black;
-      text-align: center;
-      display: flex;
-      height: 60px;
-      line-height: 40px;
-  }
-
-}
-
-
-
-/***************/
-/**** HOME****/
-/***************/
-
-#home {
-    min-height: 60vh;
-    background: url(../images/hero-image.jpg);
-    margin-top: -40px;
-    background-size: auto;
-
-}
-
-.titre {
-    text-align: center;
-    font-size: 2em;
-    color: white;
-}
-
-.titre h2 {
-    text-align: center;
-    color: white;
-}
-
-.soustitre {
-    text-align: center;
-    font-size: 1em;
-    color: white;
-
-}
-
-.bouton {
-    text-align: center;
-}
-
-.myButton {
-	box-shadow:inset 0px 0px 0px -24px #f74C3C;
-	background-color:#f74C3C;
-	border-radius:5px;
-	display:inline-block;
-	cursor:pointer;
-	color:#ffffff;
-	font-family:Arial;
-	font-size:1.2em;
-	font-weight:bold;
-	padding:0px 20px;
-	text-decoration:none;
-    text-shadow:0px 1px 0px #f74C3C;
-    margin: auto 0;
-    margin-bottom: 20px;
-}
-
-.myButton:hover {
-	background-color:#eb675e;
-}
-.myButton:active {
-	position:relative;
-	top:1px;
-}
-
-
-.code {
-    text-align: center;
-}
-
-@media (max-width:991px) {
-
-    #home {
-        height: 60vh;
-        background: url(../images/hero-image.jpg);
-        margin-top: -40px;
-        background-size: cover;
-
-    }
-
-    .titre h2 {
-        text-align: center;
-        color: white;
-        font-size: 0.5em;
-    }
-
-    .soustitre {
-        text-align: center;
-        font-size: 0.5em;
-        color: white;
-
-    }
-
-
-    .myButton {
-        box-shadow:inset 0px 0px 0px -24px #f74C3C;
-        border-radius:5px;
-        font-size:0.6em;
-        font-weight:bold;
-        padding:0px 20px;
-        text-shadow:0px 1px 0px #f74C3C;
-        margin: auto 0;
-        margin-bottom: 20px;
-    }
-
-    .myButton:active {
-        position:relative;
-        top:1px;
-    }
-
-    .code img {
-        height: 50px;
-        width: auto;
-    }
-
-
-}
-
-/***************/
-/****  WHO ****/
-/***************/
-
-#who {
-    min-height: 40vh;
-    width: 100%;
-}
-
-.p2logo {
-    text-align: center;
-    margin-top: 40px;
-    color: #f74C3C;
-}
-
-hr {
-    display: flex;
-    width : 8%;
-    text-align: center;
-    justify-content: center;
-    color: #f74C3C;
-}
-
-.p2texte {
-    text-align: center;
-    font-size: 1.4em;
-}
-
-@media (max-width:991px) {
-
-    #who {
-        min-height: 30vh;
-        width: 100%;
-    }
-
-    .p2logo {
-        text-align: center;
-        color: #f74C3C;
-    }
-
-    .p2logo img {
-        height: 80px;
-        width: auto;
-    }
-
-    .p2logo h2 {
-        font-size: 1em;
-        margin-top : -30px;
-    }
-
-    .p2texte {
-        text-align: center;
-        font-size: 0.8em
-    }
-
-}
-
-
-/***************/
-/*GET-INVOLVED*/
-/***************/
-
-#get-involved {
-    min-height: 52vh;
-    width: 100%;
-    background-color: rgba(245, 241, 241, 0.877);
-}
-.p3titre {
-    text-align: center;
-    color: #f74C3C;
-}
-
-.colonne {
-    margin-bottom: 20px;
-}
-
-#colonne1 {
-	float: left;
-    width: 33%;
-    text-align: center;
-    z-index: 2;
-    margin-left: 50px;
-}
-#colonne2 {
-	float: right;
-    width: 33%;
-    text-align: center;
-    margin-right: 50px;
-}
-#centre {
-    text-align: center;
-}
-
-
-.colonne i {
-    border-radius: 50%;
-    border-color: black;
-    background: rgba(0, 0, 0, 0.76);
-    width: 2em;
-    color: white;
-    padding-top: 0.40em;
-    padding-bottom: 0.40em;
-
-}
-
-#get-involved a {
-    color: #f74C3C;
-    background: white;
-    border-width: 1px;
-    border-radius: 8%;
-    border-style: solid;
-    border-color: rgba(0, 0, 0, 0.692);
-    padding: 10px;
-    text-decoration: none;
-    font-size: 0.7em;
-    padding: 5px;
-}
-
-@media (max-width:991px) {
-
-
-    #get-involved {
-        min-height: 80vh;
-    }
-    .p3titre h2{
-        font-size: 1em;
-    }
-
-    .fa-user {
-        width: 18%;
-    }
-
-    .fa-money-bill-alt {
-        width: 18%;
-    }
-
-    #get-involved a {
-        border-width: 1px;
-        border-radius: 8%;
-        border-style: solid;
-        border-color: rgba(0, 0, 0, 0.692);
-        text-decoration: none;
-        padding: 5px;
-    }
-
-    #get-involved p {
-        font-size: 0.9em;
-    }
-
-    .fa-pencil-alt {
-        border-radius: 50%;
-        border-color: black;
-        background: rgba(0, 0, 0, 0.76);
-        width: 1.7em;
-        color: white;
-        padding-top: 0.30em;
-        padding-bottom: 0.30em;
-    }
-    #colonne1 {
-        margin-left: 20px;
-    }
-    #colonne2 {
-        margin-right: 20px;
-    }
-
-}
-
-@media (max-width:767px) {
-
-
-    #get-involved {
-        min-height: 100vh;
-    }
-    .p3titre h2{
-        font-size: 0.8em;
-    }
-    .colonne {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: center;
-        margin: auto;
-        text-align: center;
-        margin-bottom: 5em;
-    }
-    .fa-user {
-        width: 18%;
-    }
-
-    .fa-money-bill-alt {
-        width: 18%;
-    }
-
-    #get-involved a {
-        border-width: 1px;
-        border-radius: 8%;
-        border-style: solid;
-        border-color: rgba(0, 0, 0, 0.692);
-        text-decoration: none;
-        padding: 5px;
-    }
-
-    #get-involved p {
-        font-size: 0.7em;
-    }
-
-    .fa-pencil-alt {
-        border-radius: 50%;
-        border-color: black;
-        background: rgba(0, 0, 0, 0.76);
-        width: 1.7em;
-        color: white;
-        padding-top: 0.30em;
-        padding-bottom: 0.30em;
-    }
-    #colonne1 {
-        flex: 1;
-        min-width: 25em;
-        margin: auto;
-        margin-bottom: 2em;
-
-    }
-    #colonne2 {
-        flex: 1;
-        min-width: 25em;
-        margin: auto;
-        margin-bottom: 2em;
-    }
-
-    #center {
-        flex: 1;
-        min-width: 25em;
-        margin: auto;
-        margin-bottom: 2em;
-    }
-
-
-}
-/***************/
-/*** FOOTER ****/
-/***************/
-
-.footer {
-    min-height: 25vh;
-    background-color: #f74C3C
-}
-
-.footer img {
+#slider figure img {
+    width: 20%;
     float: left;
-    margin-top: 140px;
-    margin-left: 250px;
 }
 
-@media (max-width:991px) {
-    .footer {
-        height: 25vh;
-        background-color: #f74C3C
+
+
+@keyframes slider {
+    0% {
+        left: 0;
     }
 
-    .footer img {
-        float: left;
-        margin-top: 30px;
-        margin-left: 30px;
+    20% {
+        left: 0;
     }
 
+    25% {
+        left: -100%;
+    }
 
+    45% {
+        left: -100%;
+    }
+
+    50% {
+        left: -200%;
+    }
+
+    70% {
+        left: -200%;
+    }
+
+    75% {
+        left: -300%;
+    }
+
+    85% {
+        left: -300%;
+    }
+
+    95% {
+        left: -400%;
+    }
 }
 
-
-/***************/
-/* BACK TO TOP */
-/***************/
-
-#back-to-top{
-    position: fixed;
-    bottom: 50%;
-    right: 2%;
-
-}
-
-
-#back-to-top a{
-    font-size: 24px;
-    text-decoration: none;
-    color: #333;
-}
+/*************/
+/* PRESIDENT */
+/*************/
