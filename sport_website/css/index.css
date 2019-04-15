@@ -20,7 +20,7 @@ body{
 
 #slider {
     overflow: hidden;
-    min-height: 80vh;
+    min-height: 70vh;
 }
 
 #slider figure {
@@ -103,5 +103,5 @@ body{
     width: 50%;
     float: right;
     height: auto;
-    font-size: 0.7em;
+    font-size: 1.2em;
 }
