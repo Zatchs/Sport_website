@@ -20,7 +20,7 @@ body{
 
 #slider {
     overflow: hidden;
-    min-height: 100vh;
+    min-height: 80vh;
 }
 
 #slider figure {
@@ -79,3 +79,29 @@ body{
 /*************/
 /* PRESIDENT */
 /*************/
+
+.presentation {
+    width: 100%;
+    height: 70vh;
+    margin-top: 100px;
+}
+
+.pImg {
+    width: 50%;
+    float: left;
+    height: auto;
+    background: white;
+}
+
+.pImg img {
+    width: 100%;
+    max-width: 500px;
+    margin-left: 80px;
+}
+
+.pTexte {
+    width: 50%;
+    float: right;
+    height: auto;
+    font-size: 0.7em;
+}
