@@ -1,0 +1,27 @@
+/*****************/
+/*** GALERIE*** */
+/****************/
+
+.ligne1 {
+    height: 50vh;
+    margin-top: 100px;
+}
+
+.photol1 img {
+    max-width: 100%;
+    height: auto;
+    display: inline-flex;
+}
+
+ul#photol1 {
+    max-width: 100%;
+    height: auto;
+    display: inline-flex;
+}
+
+
+#photol2 {
+    width: 100%;
+    height: auto;
+    display: inline-flex;
+}
