@@ -82,25 +82,25 @@ body{
 
 .presentation {
     width: 100%;
-    min-height: 90vh;
+    min-height: 70vh;
     margin-top: 100px;
 }
 
 .pImg {
-    width: 45%;
+    width: 35%;
     float: left;
     height: auto;
     background: white;
 }
 
 .pImg img {
-    width: 100%;
-    max-width: 500px;
+    width: 80%;
+    max-width: 400px;
     margin-left: 20px;
 }
 
 .pTexte {
-    width: 45%;
+    width: 55%;
     float: right;
     height: auto;
     font-size: 1.2em;
@@ -127,22 +127,22 @@ body{
 }
 
 .aPimg{
-    width: 45%;
+    width: 35%;
     float: right;
     height: auto;
     background: white;
 }
 
 .aPimg img {
-    width: 100%;
-    max-width: 500px;
+    width: 80%;
+    max-width: 400px;
     margin-right: 20px;
 }
 
 .aPtexte {
-    width: 45%;
+    width: 60%;
     float: left;
     height: auto;
     font-size: 1.2em;
-    margin-left : 20px;
+    margin-left : 50px;
 }
