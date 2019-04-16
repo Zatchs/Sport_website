@@ -6,14 +6,6 @@
   padding: 0;
 }
 
-html, body {
-  height: 30vh;
-}
-
-body {
-  background: #ddd;
-}
-
 .content {
   padding: 30px;
   font: 300 40px Lato, sans-serif;
@@ -22,9 +14,10 @@ body {
   background: #eee;
 }
 
-.footer {
+.footer2 {
   padding: 20px 0;
   text-align: center;
+  height: 15vh;
 }
 
 .social {

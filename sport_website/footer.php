@@ -14,8 +14,6 @@
         </div>
 
         <div class="footer2">
-          <div class="content">Contactez-nous</div>
-          <div class="footer">
             <div class="social">&#62220;</div>
             <div class="social">&#62217;</div>
             <div class="social">&#62223;</div>
