@@ -3,7 +3,7 @@
     <head>
 
         <meta charset="utf-8"/>
-        <link rel="stylesheet" href="style_rank.css"/>
+        <link rel="stylesheet" href="css/style_rank.css"/>
 
         <title>classements</title>
 
@@ -11,7 +11,7 @@
 
     <body>
 
-        <img class="img_rank" src="imgsport.jpg" alt="img du rank"/>
+        <img class="img_rank" src="images/imgsport.jpg" alt="img du rank"/>
 
         <div class="bloc_classements">
           <p id="classements">CLASSEMENTS</p>
@@ -121,9 +121,9 @@
             <th colspan="3">mardi 27 janvier</th>
           </tr>
           <tr>
-            <td width="45%"><img class="logo_eq1" src="italia.png" width="42%" alt="logo 1"/><br>Italie</td>
+            <td width="45%"><img class="logo_eq1" src="images/italia.png" width="42%" alt="logo 1"/><br>Italie</td>
             <td width="10%">VS</td>
-            <td width="45%"><img class="logo_eq2" src="france2stars.png" width="30%" alt="logo 2"/><br>France</td>
+            <td width="45%"><img class="logo_eq2" src="images/france2stars.png" width="30%" alt="logo 2"/><br>France</td>
           </tr>
           <tr>
             <th colspan="3">mercredi 28 janvier</th>
@@ -139,7 +139,7 @@
           <tr>
             <td>goku</td>
             <td>VS</td>
-            <td>vegeta</td>
+            <td>veSeta</td>
           </tr>
         </table></center>
       </div>

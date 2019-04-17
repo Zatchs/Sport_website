@@ -73,7 +73,7 @@
 	</div>
 	<!-- FIN A PROPOS -->
 
-<?php include('footer.php');?
+<?php include('footer.php');?>
 
 
 
