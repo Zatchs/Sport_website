@@ -139,7 +139,7 @@
           <tr>
             <td>goku</td>
             <td>VS</td>
-            <td>veSeta</td>
+            <td>vegeta</td>
           </tr>
         </table></center>
       </div>
