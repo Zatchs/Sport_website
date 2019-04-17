@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="frrrr">
+<html lang="frr">
 
 <head>
     <meta charset="UTF-8">
