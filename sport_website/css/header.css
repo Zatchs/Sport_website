@@ -1,4 +1,4 @@
-/* HEADER */
+
 html, body {
   padding: 0;
   margin: 0;
@@ -28,7 +28,7 @@ header > nav > ul > li{
 
 nav > ul > li > a {
   padding-top: 12px;
-  font-size: 17px;
+  font-size: 16px;
   letter-spacing: .5px;
   text-decoration: none;
   color: #8d8d8d;
@@ -36,4 +36,20 @@ nav > ul > li > a {
 
 nav > ul > li > a:hover {
   color: white;
+}
+
+@media all and (max-width:1200px) {
+  nav > ul > li > a {
+    padding-top: 12px;
+    font-size: 11px;
+    letter-spacing: .5px;
+    text-decoration: none;
+    color: #8d8d8d;
+  }
+
+  header > nav > ul > li{
+      display: inline-block;
+      margin-left: 5%;
+      vertical-align: middle;
+  }
 }
