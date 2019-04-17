@@ -2,8 +2,24 @@
 /*** GALERIE*** */
 /****************/
 
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-weight: 700;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2.2em;
+}
+
+li {
+    list-style-type: none;
+}
+
 .ligne1 {
-    height: 50vh;
+    min-height: 30vh;
     margin-top: 100px;
 }
 
@@ -24,4 +40,8 @@ ul#photol1 {
     width: 100%;
     height: auto;
     display: inline-flex;
+}
+
+img {
+    margin-right : 5em;
 }
