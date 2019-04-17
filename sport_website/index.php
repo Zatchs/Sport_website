@@ -13,7 +13,7 @@
 </head>
 
 <body>
-
+<?php include('header.php');?>
 	<!-- SLIDER -->
 	<div id="slider">
 		<figure>
@@ -73,7 +73,7 @@
 	</div>
 	<!-- FIN A PROPOS -->
 
-<?php include('footer.php');?
+<?php include('footer.php');?>
 
 
 
