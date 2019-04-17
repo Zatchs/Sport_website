@@ -34,5 +34,7 @@
         <input type="submit" value="Envoyer" />
     </form>
 </body>
+<?php include('footer1.php'); ?>
+<?php include('footer.php'); ?>
 
 </html>
