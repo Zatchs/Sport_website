@@ -9,6 +9,7 @@
 </head>
 
 <body>
+<h1>CONTACT</h1>
     <p>Veuillez remplir le formulaire ci-dessous pour prendre contact.
     </p>
 
