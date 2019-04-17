@@ -13,7 +13,7 @@
 </head>
 
 <body>
-
+<?php include('header.php');?>
 	<!-- SLIDER -->
 	<div id="slider">
 		<figure>
