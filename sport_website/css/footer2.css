@@ -6,18 +6,10 @@
   padding: 0;
 }
 
-.content {
-  padding: 30px;
-  font: 300 40px Lato, sans-serif;
-  text-align: center;
-  color: #999;
-  background: #eee;
-}
-
 .footer2 {
   padding: 20px 0;
   text-align: center;
-  height: 15vh;
+  min-height: 23vh;
 }
 
 .social {
