@@ -6,7 +6,7 @@
 .img_rank{
   position: relative;
   width: 100%;
-  border-bottom: 6px solid green;
+  border-bottom: 6px solid #9ec400;
 }
 
 .bloc_classements{
@@ -23,7 +23,7 @@
 }
 
 .tableau th{
-  background-color: green;
+  background-color: #9ec400;
   border: 2px solid black;
   padding: 10px;
   text-align: center;
@@ -43,7 +43,7 @@
 }
 
 .tabl_next_day th{
-  background-color: pink;
+  background-color: #9ec400;
   border: 2px solid black;
   padding: 10px;
   text-align: center;
