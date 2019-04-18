@@ -10,7 +10,7 @@
     </head>
 
     <body>
-
+      <?php include('header.php');?>
         <img class="img_rank" src="images/imgsport.jpg" alt="img du rank"/>
 
         <div class="bloc_classements">
@@ -139,11 +139,12 @@
           <tr>
             <td>goku</td>
             <td>VS</td>
-            <td>veSeta</td>
+            <td>vegeta</td>
           </tr>
         </table></center>
       </div>
-
+      <?php include('footer1.php'); ?>
+      <?php include('footer.php');?>
     </body>
 
 </html>

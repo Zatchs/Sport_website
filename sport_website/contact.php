@@ -10,9 +10,13 @@
 </head>
 
 <body>
+  <?php include('header.php'); ?>
     <div id="titre_contact">
         <h1>CONTACT</h1>
     </div>
+    <br>
+    <br>
+    <br>
     <p>Veuillez remplir le formulaire ci-dessous pour prendre contact.
     </p>
 
@@ -34,5 +38,7 @@
         <input type="submit" value="Envoyer" />
     </form>
 </body>
+<?php include('footer1.php'); ?>
+<?php include('footer.php'); ?>
 
 </html>

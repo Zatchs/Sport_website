@@ -13,6 +13,11 @@ body{
     text-align: center;
 }
 
+h2  {
+    font-size: 2em;
+}
+
+
 
 /***********/
 /* *SLIDER **/
@@ -103,8 +108,19 @@ body{
     width: 55%;
     float: right;
     height: auto;
-    font-size: 1.2em;
+    font-size: 1.8em;
     margin-right: 20vh;
+}
+
+@media (max-width:991px) {
+    .presentation {
+        margin-top: 50px;
+    }
+
+    .pTexte {
+        font-size: 1.2em;
+        margin-right: 40px;
+    }
 }
 
 /*************/
@@ -140,9 +156,23 @@ body{
 }
 
 .aPtexte {
-    width: 60%;
+    width: 55%;
     float: left;
     height: auto;
-    font-size: 1.2em;
+    font-size: 1.8em;
     margin-left : 50px;
+    margin-top: 20px;
+}
+
+@media (max-width:991px) {
+
+    .aPropos {
+        margin-top: 20px;
+    }
+
+
+    .aPtexte {
+        font-size: 1.2em;
+        margin-left : 50px;
+    }
 }
