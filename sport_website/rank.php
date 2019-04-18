@@ -143,6 +143,7 @@
           </tr>
         </table></center>
       </div>
+      <br><br><br><br><br>
       <?php include('footer1.php'); ?>
       <?php include('footer.php');?>
     </body>

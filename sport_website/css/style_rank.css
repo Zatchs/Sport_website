@@ -70,7 +70,32 @@
 
 /*media queries*/
 
-@media screen and (max-width: 1000px)
-{
+@media screen and (max-width: 1000px){
+.tableau th{
+  border: 1px solid black;
+  padding: 5px;
+  font-size: 1.2em;
+}
 
+.tableau td{
+  border: 1px solid black;
+  padding: 5px;
+  font-size: 1em;
+}
+
+.tabl_next_day th{
+  border: 1px solid black;
+  padding: 5px;
+  font-size: 1.2em;
+}
+
+.tabl_next_day td{
+  border: 1px solid black;
+  padding: 5px;
+  font-size: 1em;
+}
+
+#prochaines{
+  font-size: 2.5em;
+}
 }
