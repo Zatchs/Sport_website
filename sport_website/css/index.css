@@ -140,6 +140,26 @@ h2  {
     }
 }
 
+@media (max-width:480px) {
+
+    h2 {
+        font-size: 1.5em;
+    }
+    .presentation {
+        margin-top: 20px;
+    }
+
+    .pImg img {
+        margin-top: 70px;
+        margin-left: 20px;
+    }
+
+    .pTexte {
+        font-size: 0.8em;
+        margin-right: 20px;
+    }
+}
+
 /*************/
 /** PARRALAX**/
 /*************/
@@ -201,12 +221,28 @@ h2  {
 
 @media (max-width:767px) {
     .aPropos {
-        margin-top: 20px;
+        margin-top: 70px;
     }
 
 
     .aPtexte {
         font-size: 1em;
         margin-left : 50px;
+    }
+}
+
+@media (max-width:480px) {
+    .aPropos {
+        margin-top: 70px;
+    }
+
+
+    .aPtexte {
+        font-size: 0.8em;
+        margin-left : 20px;
+    }
+    .aPimg img {
+        margin-right: 20px;
+        margin-top: 70px;
     }
 }
