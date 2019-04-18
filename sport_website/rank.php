@@ -7,7 +7,7 @@
 
         <title>classements</title>
 
-    </head>
+    </head> 
 
     <body>
       <?php include('header.php');?>
