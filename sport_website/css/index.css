@@ -109,7 +109,7 @@ h2  {
     float: right;
     height: auto;
     font-size: 1.8em;
-    margin-right: 20vh;
+    margin-right: 60px;
 }
 
 @media (max-width:991px) {
