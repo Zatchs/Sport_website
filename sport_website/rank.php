@@ -3,11 +3,11 @@
     <head>
 
         <meta charset="utf-8"/>
-        <link rel="stylesheet" href="css/style_rank.css"/>
+        <link rel="stylesheet" href="css/rank.css"/>
 
         <title>classements</title>
 
-    </head> 
+    </head>
 
     <body>
       <?php include('header.php');?>
