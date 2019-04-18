@@ -42,9 +42,7 @@
 				dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
 				commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
 				pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
-				laborum. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat quidem et repellat, quo atque
-				repudiandae error fuga ipsa sed repellendus animi, alias expedita laudantium culpa maxime nesciunt, ex nostrum
-				distinctio.</p>
+				laborum.</p>
 		</div>
 	</div>
 	<!-- FIN MOT DU PRESIDENT -->
@@ -66,7 +64,7 @@
 				magni nulla incidunt quo blanditiis aliquid illo! Sequi quia cumque recusandae adipisci ratione id natus error
 				earum optio molestias. Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem maiores exercitationem
 				itaque ut eum explicabo officiis rerum sed mollitia. Repudiandae commodi quaerat, corporis expedita nostrum ab
-				architecto sit impedit optio./p>
+				architecto sit impedit optio.</p>
 		</div>
 	</div>
 	<!-- FIN A PROPOS -->

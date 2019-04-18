@@ -61,8 +61,8 @@
     rgb(219, 219, 219) 25px 25px,
     rgb(219, 219, 219) 26px 26px,
     rgb(219, 219, 219) 27px 27px,
-    rgb(220, 220, 220) 28px 28px,
-    rgb(220, 220, 220) 29px 29px,
+    rgb(220, 220, 220) 10px 10px,
+    rgb(220, 220, 220) 10px 10px,
     rgb(221, 221, 221) 30px 30px;
    text-shadow: rgb(226, 226, 226) 1px 1px,
     rgb(227, 227, 227) 2px 2px,
@@ -84,4 +84,53 @@
     rgb(236, 236, 236) 18px 18px,
     rgb(237, 237, 237) 19px 19px,
     rgb(238, 238, 238) 20px 20px;
+}
+
+@media (max-width:991px) {
+  .footer2 {
+    padding: 20px 0;
+    min-height: 28vh;
+  }
+
+  .social {
+    width: 70px;
+    height: 70px;
+    margin: 0 10px;
+    line-height: 70px;
+    font-size: 35px;
+  }
+}
+
+@media (max-width:776px) {
+  .footer2 {
+    padding: 20px 0;
+    min-height: 28vh;
+  }
+
+  .social {
+    width: 70px;
+    height: 70px;
+    margin: 0 10px;
+    line-height: 70px;
+    font-size: 35px;
+    margin-left: 40px;
+  }
+}
+
+@media (max-width:480px) {
+  .footer2 {
+    padding: 20px 0;
+    min-height: 20vh;
+  }
+
+  .social {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    margin-left: 50px;
+  }
+
+  .social {
+    box-shadow: none;
+  }
 }
