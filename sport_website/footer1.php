@@ -10,23 +10,23 @@
     <body>
 
 <footer class="flex-rw">
-  
+
     <ul class="footer-list-top">
       <li>
         <h4 class="footer-list-header">Notre Salle</h4></li>
       <li><a href='/shop/about-mission' class="generic-anchor footer-list-anchor" itemprop="significantLink">A propos</a></li>
       <li><a href='/promos.html' class="generic-anchor footer-list-anchor" itemprop="significantLink">Emplacement</a></li>
       <li><a href='/retailers/new-retailers.html' class="generic-anchor footer-list-anchor" itemprop="significantLink">Deviens membre</a></li>
-  
+
       <li><a href='/job-openings.html' itemprop="significantLink" class="generic-anchor footer-list-anchor">Nos sports</a></li>
-  
+
       <li><a href='/shop/about-show-schedule' class="generic-anchor footer-list-anchor" itemprop="significantLink">Evenements</a></li>
     </ul>
     <ul class="footer-list-top">
       <li>
         <h4 class="footer-list-header">Nos Sports</h4></li>
-  
-  
+
+
       <li><a href='/Angels/cat/id/70' class="generic-anchor footer-list-anchor">Football</a></li>
       <li><a href='/Home-Decor/cat/id/64' class="generic-anchor footer-list-anchor">Basket</a></li>
       <li><a href='/Mugs/cat/id/32' class="generic-anchor footer-list-anchor">Tennis</a></li>

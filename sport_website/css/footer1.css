@@ -107,4 +107,25 @@
     display: inline;
     font-style: normal;
   }
-  
+
+  @media (max-width:991px) {
+
+    .flex-rw {
+      min-height: 45vh;
+    }
+  }
+
+  @media (max-width: 480px) {
+
+    .flex-rw {
+      min-height: 35vh;
+    }
+
+    .footer-list-anchor {
+      font: 1em "Open Sans", sans-serif;
+    }
+
+    .footer-bottom-wrapper {
+      font-size: 1em;
+    }
+  }
