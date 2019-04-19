@@ -2,13 +2,21 @@
 /*** GALERIE*** */
 /****************/
 
-body {
+html{
+    height: 100%;
+  }
+
+  body{
+    position: relative;
+    background-color: white;
+    min-height: 100%;
     margin: 0;
     padding: 0;
-    width: 100%;
-    font-weight: 700;
+    overflow-x: hidden;
+    font-family: "Arvo";
     text-align: center;
-}
+  }
+
 
 h2 {
     font-size: 2.2em;
@@ -27,6 +35,7 @@ li {
     max-width: 100%;
     height: auto;
     display: inline-flex;
+    margin-right: 50px;
 }
 
 ul#photol1 {
@@ -36,12 +45,14 @@ ul#photol1 {
 }
 
 
-#photol2 {
+.photol2 {
     width: 100%;
     height: auto;
     display: inline-flex;
+    margin-right: 50px;
 }
 
-img {
+
+.ligne1, .ligne2 img {
     margin-right : 5em;
 }
