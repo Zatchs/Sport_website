@@ -5,7 +5,7 @@
         <meta charset="utf-8"/>
         <link rel="stylesheet" href="css/rank.css"/>
 
-        <title>classements</title>
+        <title>classements</title> 
 
     </head>
 
