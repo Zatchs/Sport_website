@@ -3,21 +3,23 @@
     <head>
 
         <meta charset="utf-8"/>
-        <link rel="stylesheet" href="css/rank.css"/>
+        <link rel="stylesheet" href="css/style_rank.css"/>
 
-        <title>classements</title> 
+        <title>classements</title>
 
     </head>
 
     <body>
       <?php include('header.php');?>
-        <img class="img_rank" src="images/imgsport.jpg" alt="img du rank"/>
 
-        <div class="bloc_classements">
-          <p id="classements">CLASSEMENTS</p>
+        <div id="bloc_classements">
+          <img class="img_rank" src="images/imgsport.jpg" alt="img du rank"/>
+          <div id="cadre_titre">
+            <h1>CLASSEMENTS</h1>
+          </div>
         </div>
 
-      <br><br><br><br><br>
+      <br><br><br><br><br><br><br><br><br><br>
       <div class="tableau">
         <center><table>
           <tr>
@@ -111,9 +113,9 @@
         </table></center>
       </div>
 
-    <br><br><br><br><br>
+    <br><br><br><br><br><br><br>
     <p id="prochaines">Prochaines Journées</p>
-    <br><br><br><br><br>
+    <br><br><br><br><br><br><br>
 
       <div class="tabl_next_day">
         <center><table>
