@@ -113,6 +113,17 @@ h2  {
     margin-top: 30px;
 }
 
+@media all and (max-width:1199px) {
+    .presentation {
+        margin-top: 50px;
+    }
+
+    .pTexte {
+        font-size: 1.4em;
+        margin-right: 40px;
+    }
+}
+
 @media (max-width:991px) {
     .presentation {
         margin-top: 50px;
@@ -199,6 +210,27 @@ h2  {
     font-size: 1.8em;
     margin-left : 50px;
     margin-top: 20px;
+}
+
+@media all and (max-width:1199px) {
+    .aPropos {
+        min-height: 60vh;
+    }
+
+    .aPropos {
+        margin-top: 50px;
+    }
+
+    .aPimg img {
+        margin-right: 20px;
+        margin-top: 20px;
+    }
+
+
+    .aPtexte {
+        font-size: 1.5em;
+        margin-left : 50px;
+    }
 }
 
 @media (max-width:991px) {
