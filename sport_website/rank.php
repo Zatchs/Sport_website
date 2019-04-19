@@ -5,9 +5,9 @@
         <meta charset="utf-8"/>
         <link rel="stylesheet" href="css/style_rank.css"/>
 
-        <title>classements</title>
+        <title>classements</title> 
 
-    </head> 
+    </head>
 
     <body>
       <?php include('header.php');?>
