@@ -17,7 +17,7 @@ html{
     display: flex;
     justify-content: center;
     width: 100%;
-    min-height: 40em;
+    min-height: 50vh;
     background-image: url(../images/sport3.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -44,23 +44,56 @@ html{
 }
 
 
-#formulaire{
-    margin-top: 5em;
-    margin-bottom: 5em;
+/******* STYLE DU FORMULAIRE *******/
+form{
+    background-color: grey;
+    padding: 10px;
+    min-height: 50vh;
+    display: block;
+
+}
+
+/****** STYLES DU CONTENEUR ******/
+
+#conteneur-form{
+    margin-top: 20px;
+    margin-bottom: 20px;
     display: flex;
-}
-
-
-.box_form{
-    flex:1;
-    margin-left: 5em;
-    margin-right: 5em;
-    height: 30em;
-
-}
-
-#bouton_form{
-    display:block;
     justify-content: center;
+    flex-wrap: wrap;
+}
+
+/******** STYLES DES ELEMENTS DU CONTENUR ******/
+
+.element-form1 {
+    margin-left: 5px;
+    margin-right: 5px;
+      
+}
+
+.element-form2 {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+legend{
+    margin-bottom: 10px;
+    font-size: 2em;
+}
+
+#conteneur-form input{
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+#conteneur-form textarea{
+    border-radius: 5px;
+}
+
+
+/******** STYLES DU BOUTON DU FORMULAIRE ******/
+#bouton-form{
+    
+
 }
 

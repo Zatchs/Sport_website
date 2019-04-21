@@ -10,11 +10,12 @@
 </head>
 
 <body>
+    <?php include('header.php'); ?>
+
     <!--------------------------------------------------------------------------------
     ------------------------------- HEADER CONTACT -----------------------------------
     --------------------------------------------------------------------------------->
 
-    <?php include('header.php'); ?>
     <div id="header_contact">
         <div id="cadre_titre">
             <h1>CONTACT</h1>
@@ -29,42 +30,53 @@
     -------------------------------------------------------------------------------->
 
 
-    <div id="formulaire">
 
-        <!------FORMULAIRE GAUCHE -------->
-        <div class="box_form">
-            <form method="post" action="traitement_formulaire.php">
-                <fieldset>
+
+
+    <form method="post" action="traitement_formulaire.php">
+        <!--- CONTENEUR FORMULAIRE --->
+        <div id="conteneur-form">
+            <!------FORMULAIRE PARTIE GAUCHE -------->
+            <div class="element-form1">
+                
                     <legend>Vos coordonnées</legend>
-                    <input type="text" name="nom" id="nom" placeholder="Nom" size="30" maxlength="20" />
+                    <input type="text" name="nom" id="nom" placeholder="Nom" size="40" maxlength="20" />
                     <br />
-                    <input type="email" name="email" id="email" placeholder="Email" size="30" maxlength="20" />
+                    <input type="text" name="prenom" id="prenom" placeholder="Prénom" size="40" maxlength="20" />
                     <br />
-                    <input type="text" name="sujet" id="sujet" placeholder="Sujet" size="30" maxlength="20" />
-                </fieldset>
+                    <input type="email" name="email" id="email" placeholder="Email" size="40" maxlength="20" />
+                    <br />
+                    <input type="text" name="sujet" id="sujet" placeholder="Sujet" size="40" maxlength="20" />
+                
+            </div>
+            <!------FIN FORMULAIRE PARTIE GAUCHE------>
+
+
+            <!-------FORMULAIRE PARTIE DROITE--------->
+            <div class="element-form2">
+                
+                    <legend>Votre message</legend>
+                    <textarea name="message" id="message" rows="8" cols="40" placeholder="Texte"></textarea>
+                
+            </div>
+            <!---FIN FORMULAIRE PARTIE DROITE--->
+
+
         </div>
-        <!---FIN div class="formulaire_gauche" --->
-
-
-        <!------FORMULAIRE DROITE--------->
-        <div class="box_form">
-            <fieldset>
-                <legend>Votre message</legend>
-                <textarea name="message" id="message" rows="10" cols="50" placeholder="Texte"></textarea>
-            </fieldset>
-        </div>
-        <!---FIN <div class="fomulaire_droite">--->
-
+        <!---FIN CONTENEUR FORMULAIRE --->
 
         <!-------BOUTON ENVOYER---------->
-        <div id=bouton_form>
+        <div id=bouton-form>
             <input type="submit" value="Envoyer" />
         </div>
-        </form>
-        <!---FIN <form method="post" action="traitement_formulaire.php"> --->
 
-    </div>
-    <!---FIN <div id="formulaire"> --->
+    </form>
+
+
+
+
+
+
 
     <?php include('footer1.php'); ?>
     <?php include('footer2.php'); ?>
