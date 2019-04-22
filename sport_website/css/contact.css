@@ -113,3 +113,23 @@ legend{
     min-height: 50vh;
     background: transparent;
 }
+
+
+/******** STYLES DE LA MAP *******/
+
+iframe{
+    width: 100%;
+    height: 50vh;
+}
+
+
+/******** STYLES DE JOIN US ******/
+#join_us{
+    padding-top: 20px;
+width: 100%;
+min-height:50vh;
+}
+
+#join_us{
+    font-size: 1.7em;
+}
