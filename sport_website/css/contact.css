@@ -17,7 +17,7 @@ html{
     display: flex;
     justify-content: center;
     width: 100%;
-    min-height: 50vh;
+    min-height: 45em;
     background-image: url(../images/sport3.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -48,7 +48,6 @@ html{
 form{
     background-color: grey;
     padding: 10px;
-    min-height: 50vh;
     display: block;
 
 }
@@ -57,19 +56,19 @@ form{
 
 #conteneur-form{
     margin-top: 20px;
-    margin-bottom: 20px;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
 }
 
-/******** STYLES DES ELEMENTS DU CONTENUR ******/
+/******** STYLES DES ELEMENTS DU CONTENEUR ******/
 
 .element-form1 {
     margin-left: 5px;
     margin-right: 5px;
       
 }
+
 
 .element-form2 {
     margin-left: 5px;
@@ -82,8 +81,9 @@ legend{
 }
 
 #conteneur-form input{
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     border-radius: 5px;
+    height: 43px;
 }
 
 #conteneur-form textarea{
@@ -92,8 +92,17 @@ legend{
 
 
 /******** STYLES DU BOUTON DU FORMULAIRE ******/
-#bouton-form{
-    
+#bouton-form input{
+    border-radius: 5px;
+    width: 150px;
+    height: 50px;
+    font-size: 2em;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    }
 
+#bouton-form input:hover{
+    background: rgb(49, 47, 47);
+    color: white;
 }
 
