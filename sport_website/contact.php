@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
     <link rel="stylesheet" href="css/contact.css">
     <title>Document</title>
 </head>
@@ -35,9 +36,9 @@
 
     <form method="post" action="traitement_formulaire.php">
         <!--- CONTENEUR FORMULAIRE --->
-        <div id="conteneur-form">
+        <div  id="conteneur-form">
             <!------FORMULAIRE PARTIE GAUCHE -------->
-            <div class="element-form1">
+            <div  id="element-form1">
 
                 <legend>Vos coordonnées</legend>
                 <input type="text" name="nom" id="nom" placeholder="Nom" size="40" maxlength="20" />
@@ -53,7 +54,7 @@
 
 
             <!-------FORMULAIRE PARTIE DROITE--------->
-            <div class="element-form2">
+            <div  id="element-form2">
 
                 <legend>Votre message</legend>
                 <textarea name="message" id="message" rows="16" cols="40" placeholder="Texte"></textarea>
@@ -66,7 +67,7 @@
         <!---FIN CONTENEUR FORMULAIRE --->
 
         <!-------BOUTON ENVOYER---------->
-        <div id=bouton-form>
+        <div  id=bouton-form>
             <input type="submit" value="Envoyer" />
         </div>
 
