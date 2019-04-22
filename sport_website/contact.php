@@ -72,12 +72,22 @@
 
     </form>
 
+    <!-- PARRALAX -->
+	<div class="parallax-window" data-parallax="scroll" data-image-src="images/sport2.jpg" alt=""></div>
+    <!-- FIN PARRALAX -->
+    
+
+    <!------ MAP ------>
+
+    <div id=map></div>
 
 
 
 
 
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/parallax.js/1.4.2/parallax.min.js"></script>
     <?php include('footer1.php'); ?>
     <?php include('footer2.php'); ?>
 </body>
