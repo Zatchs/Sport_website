@@ -48,6 +48,7 @@ body{
 .tableau{
   animation-duration: 2s;
   animation-name: slidein;
+  margin: 4% 0;
 }
 
 @keyframes slidein {
@@ -110,6 +111,7 @@ body{
 .tabl_next_day{
   animation-duration: 4s;
   animation-name: slidein;
+  margin: 4% 0;
 }
 
 @keyframes slidein {
