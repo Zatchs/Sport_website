@@ -18,9 +18,14 @@ body{
 
 
 #bloc_classements{
-
     border-bottom: 6px solid #9ec400;
-    z-index: 10;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    min-height: 45em;
+    background-image: url(../images/imgsport.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 #bloc_classements h1{
@@ -39,6 +44,23 @@ body{
     margin-bottom: auto;
     background-color: rgba(000,0,0,0.5)
 }
+
+.tableau{
+  animation-duration: 2s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
 
 .tableau th{
   background-color: #7e9d01;
@@ -69,7 +91,38 @@ body{
   padding: 20px;
   font-size: 4em;
   text-align: center;
+  animation-duration: 1s;
+  animation-name: slidein;
 }
+
+@keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+
+.tabl_next_day{
+  animation-duration: 4s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
 
 .tabl_next_day th{
   background-color: #7e9d01;
@@ -96,6 +149,11 @@ body{
 /*media queries*/
 
 @media screen and (max-width: 1000px){
+
+#bloc_classements h1{
+    font-size: 3em;
+}
+
 .tableau th{
   border: 1px solid white;
   padding: 5px;
