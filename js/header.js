@@ -1,7 +1,7 @@
 $(document).ready(function(){
   $(window).scroll(function(){
       var scroll = $(window).scrollTop();
-      if (scroll > 400) {
+      if (scroll > 1000) {
         $("nav").css("opacity" , "1");
       }
 
