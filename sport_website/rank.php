@@ -5,7 +5,7 @@
         <meta charset="utf-8"/>
         <link rel="stylesheet" href="css/style_rank.css"/>
 
-        <title>classements</title>
+        <title>Classements</title>
 
     </head>
 
@@ -13,7 +13,6 @@
       <?php include('header.php');?>
 
         <div id="bloc_classements">
-          <img class="img_rank" src="images/imgsport.jpg" alt="img du rank"/>
           <div id="cadre_titre">
             <h1>CLASSEMENTS</h1>
           </div>

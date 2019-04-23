@@ -11,7 +11,7 @@
 	<script src="js/jquery.js" type="text/javascript" charset="utf-8"></script>
 	<link rel="stylesheet" href="css/prettyPhoto.css" type="text/css" media="screen" charset="utf-8" />
 	<script src="js/jquery.prettyPhoto.js" type="text/javascript" charset="utf-8"></script>
-
+	<title>Galerie</title>
 </head>
 
 <body>
