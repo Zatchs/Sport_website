@@ -172,6 +172,13 @@ iframe {
 
 /******* RESPONSIVITE ********/
 
+@media (max-width:1099px) {
+    #join_us {
+        font-size: 1.5em;
+    }
+}
+
+
 @media (max-width:991px) {
     
     #header_contact {
