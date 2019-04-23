@@ -6,7 +6,7 @@
   <nav>
       <ul>
           <li class="menu"><a href="index.php">ACCUEIL</a></li>
-          <li class="menu"><a href="rank.php">RANK</a></li>
+          <li class="menu"><a href="rank.php">CLASSEMENTS</a></li>
           <li><a href="#"><img id="logo" src="images/logo-header.png" alt="logo"/></a></li>
           <li class="menu"><a href="galerie.php">GALERIE</a></li>
           <li class="menu"><a href="contact.php">CONTACT</a></li>
