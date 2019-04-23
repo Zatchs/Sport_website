@@ -17,7 +17,7 @@ body {
     display: flex;
     justify-content: center;
     min-width: 100%;
-    min-height: 40em;
+    min-height: 45em;
     background-image: url(../images/sport3.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -177,6 +177,10 @@ iframe {
     #header_contact {
         min-height: 35em;
     }
+
+    #header_contact h1 {
+        font-size: 3em;
+    }
     
     #join_us {
         font-size: 1.4em;
@@ -188,6 +192,10 @@ iframe {
     #header_contact {
         min-height: 35em;
     }
+
+    #header_contact h1 {
+        font-size: 3em;
+    }
     
     #join_us {
         font-size: 1.2em;
@@ -198,6 +206,10 @@ iframe {
     
     #header_contact {
         min-height: 35em;
+    }
+
+    #header_contact h1 {
+        font-size: 3em;
     }
     
     #join_us {
