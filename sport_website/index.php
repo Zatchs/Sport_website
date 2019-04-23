@@ -29,7 +29,7 @@
 	<!-- MOT DU PRESIDENT -->
 	<div class="presentation">
 		<div class="pImg">
-			<img src="images/president.jpeg" alt="Président"></img>
+			<img src="images/president.jpeg" alt="Président">
 		</div>
 		<h2>Un mot du président</h2>
 		<br>
@@ -54,7 +54,7 @@
 	<!-- A PROPOS -->
 	<div class="aPropos">
 		<div class="aPimg">
-			<img src="images/apropos.jpg" alt=""></img>
+			<img src="images/apropos.jpg" alt="">
 		</div>
 		<h2>A Propos</h2>
 		<div class="aPtexte">
