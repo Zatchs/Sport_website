@@ -152,6 +152,10 @@ body{
 
 @media screen and (max-width: 1000px){
 
+#bloc_classements{
+  min-height: 35em;
+}
+
 #bloc_classements h1{
     font-size: 3em;
 }
