@@ -26,6 +26,7 @@ h2  {
 #slider {
     overflow: hidden;
     min-height: 70vh;
+    margin-top: 60px;
 }
 
 #slider figure {
