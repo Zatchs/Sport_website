@@ -1,8 +1,8 @@
-html{
+html {
     height: 100%;
-  }
-  
-  body{
+}
+
+body {
     position: relative;
     background-color: white;
     min-height: 100%;
@@ -11,56 +11,160 @@ html{
     overflow-x: hidden;
     font-family: "Arvo";
     text-align: center;
-  }
+}
 
-#header_contact{
+#header_contact {
     display: flex;
     justify-content: center;
     width: 100%;
-    min-height: 40em;
+    min-height: 45em;
     background-image: url(../images/sport3.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     
+
 }
 
-#cadre_titre{
+#cadre_titre {
     text-align: center;
     display: flex;
     justify-content: center;
     width: 100%;
     height: 10em;
-    margin-top:auto;
+    margin-top: auto;
     margin-bottom: auto;
-    background-color: rgba(000,0,0,0.5)
-
+    background-color: rgba(000, 0, 0, 0.5)
 }
 
-#header_contact h1{
-    font-size:6em;
+#header_contact h1 {
+    font-size: 6em;
     color: white;
-    margin-top:auto;
+    margin-top: auto;
     margin-bottom: auto;
 }
 
 
-#formulaire{
-    margin-top: 5em;
-    margin-bottom: 5em;
+/******* STYLE DU FORMULAIRE *******/
+form {
+    background-color: grey;
+    padding: 10px;
+    display: block;
+
+}
+
+/****** STYLES DU CONTENEUR ******/
+
+#conteneur-form {
+    margin-top: 20px;
     display: flex;
-}
-
-
-.box_form{
-    flex:1;
-    margin-left: 5em;
-    margin-right: 5em;
-    height: 30em;
-
-}
-
-#bouton_form{
-    display:block;
     justify-content: center;
+    flex-wrap: wrap;
+    animation-duration: 2s;
+    animation-name: slidein;
+}
+@keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%; 
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+
+/******** STYLES DES ELEMENTS DU CONTENEUR ******/
+
+#element-form1 {
+    margin-left: 5px;
+    margin-right: 5px;
+    
+    }
+
+
+#element-form2 {
+    margin-left: 5px;
+    margin-right: 5px;
+    
 }
 
+
+legend {
+    margin-bottom: 10px;
+    font-size: 2em;
+}
+
+#conteneur-form input {
+    margin-bottom: 30px;
+    border-radius: 5px;
+    height: 43px;
+}
+
+#conteneur-form textarea {
+    border-radius: 5px;
+}
+
+
+/******** STYLES DU BOUTON DU FORMULAIRE ******/
+
+#bouton-form{
+  animation-duration: 4s;
+    animation-name: slidein;
+       
+}
+
+@keyframes slidein {
+    from {
+      margin-right: 100%;
+      width: 300%; 
+    }
+  
+    to {
+      margin-right: 0%;
+      width: 100%;
+    }
+  }
+
+#bouton-form input {
+    border-radius: 5px;
+    width: 150px;
+    height: 50px;
+    font-size: 2em;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+
+#bouton-form input:hover {
+    background: rgb(49, 47, 47);
+    color: white;
+}
+
+
+/********* STYLES DU PARALAX **********/
+
+.parallax-window {
+    min-height: 50vh;
+    background: transparent;
+}
+
+
+/******** STYLES DE LA MAP *******/
+
+iframe {
+    width: 100%;
+    height: 50vh;
+}
+
+
+/******** STYLES DE JOIN US ******/
+#join_us {
+    padding-top: 20px;
+    width: 100%;
+    min-height: 50vh;
+}
+
+#join_us {
+    font-size: 1.7em;
+}
