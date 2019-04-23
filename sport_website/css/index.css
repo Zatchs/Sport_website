@@ -114,7 +114,7 @@ h2  {
     margin-top: 30px;
 }
 
-@media all and (max-width:1199px) {
+@media all and (max-width:1099px) {
     .presentation {
         margin-top: 50px;
     }
@@ -122,6 +122,10 @@ h2  {
     .pTexte {
         font-size: 1.4em;
         margin-right: 40px;
+    }
+
+    #slider {
+        margin-top: 6%;
     }
 }
 
@@ -150,6 +154,10 @@ h2  {
         font-size: 1em;
         margin-right: 20px;
     }
+
+    #slider {
+        margin-top: 7%;
+    }
 }
 
 @media (max-width:480px) {
@@ -169,6 +177,10 @@ h2  {
     .pTexte {
         font-size: 0.8em;
         margin-right: 20px;
+    }
+
+    #slider {
+        margin-top: 8%;
     }
 }
 
