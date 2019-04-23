@@ -57,7 +57,7 @@
             <div  id="element-form2">
 
                 <legend>Votre message</legend>
-                <textarea name="message" id="message" rows="16" cols="40" placeholder="Texte"></textarea>
+                <textarea name="message" id="message" rows="14" cols="40" placeholder="Texte"></textarea>
 
             </div>
             <!---FIN FORMULAIRE PARTIE DROITE--->
