@@ -17,11 +17,11 @@ body {
     display: flex;
     justify-content: center;
     min-width: 100%;
-    min-height: 45em;
+    min-height: 40em;
     background-image: url(../images/sport3.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    margin-top: 60px;
+
 
 }
 
@@ -96,9 +96,9 @@ legend {
 }
 
 #conteneur-form input {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     border-radius: 5px;
-    height: 43px;
+    height: 42px;
 }
 
 #conteneur-form textarea {
@@ -173,7 +173,52 @@ iframe {
 /******* RESPONSIVITE ********/
 
 @media (max-width:991px) {
+    
+    #header_contact {
+        min-height: 35em;
+    }
+    
     #join_us {
         font-size: 1.4em;
     }
 }
+
+@media (max-width:767px) {
+    
+    #header_contact {
+        min-height: 35em;
+    }
+    
+    #join_us {
+        font-size: 1.2em;
+    }
+}
+
+@media (max-width:480px) {
+    
+    #header_contact {
+        min-height: 35em;
+    }
+    
+    #join_us {
+        font-size: 1.1em;
+    }
+
+    #conteneur-form {
+        animation-duration: 2s;
+        animation-name: slidein;
+    }
+    @keyframes slidein {
+        from {
+          margin-left: 100%;
+          width: 200%; 
+        }
+      
+        to {
+          margin-left: 0%;
+          width: 100%;
+        }
+      }
+
+}
+
