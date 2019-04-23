@@ -86,6 +86,21 @@
     rgb(238, 238, 238) 20px 20px;
 }
 
+@media (min-width: 1750px) {
+  .footer2 {
+    padding: 20px 0;
+    min-height: 15vh;
+  }
+
+  .social {
+    width: 70px;
+    height: 70px;
+    margin-right: 2em;
+    line-height: 70px;
+    font-size: 35px;
+  }
+}
+
 @media (max-width:991px) {
   .footer2 {
     padding: 20px 0;

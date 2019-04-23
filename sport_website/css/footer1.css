@@ -108,6 +108,21 @@
     font-style: normal;
   }
 
+  @media (min-width: 1750px) {
+
+      .flex-rw {
+        min-height: 30vh;
+      }
+
+      .footer-list-anchor {
+        font: 1.8em "Open Sans", sans-serif;
+      }
+
+      .footer-bottom-wrapper {
+        font-size: 1.8em;
+      }
+  }
+
   @media (max-width:991px) {
 
     .flex-rw {
